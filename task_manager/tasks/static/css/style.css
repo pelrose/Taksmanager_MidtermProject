@@ -1,0 +1,67 @@
+body {
+    background-color: #EABDE6;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    background-color: #AA60C8;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.table {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th {
+    background: #AA60C8;
+    color: white;
+}
+
+.btn {
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-warning:hover {
+    background-color: #D69ADE;
+}
+
+.btn-danger:hover {
+    background-color: #FFDFEF;
+}
+
+/* Bootstrap override */
+.btn-primary {
+    background-color: #AA60C8;
+    border-color: #AA60C8;
+}
+
+.btn-primary:hover {
+    background-color: #D69ADE;
+    border-color: #D69ADE;
+}
+
+.btn-secondary {
+    background-color: #D69ADE;
+    border-color: #D69ADE;
+}
+
+.btn-secondary:hover {
+    background-color: #EABDE6;
+    border-color: #EABDE6;
+}
